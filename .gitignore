@@ -1,32 +1,28 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+#include <iostream>
+using namespace sdt
 
-# Fortran module files
-*.mod
-*.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+int main(int argc, char **argv)
+{
+	int bok1; // deklaracja zmiennej
+	int bok2; // deklaracja zmiennej
+	int pole;
+	int obwód; 
+	bok1 = 0; // inicjacja zmiennej
+	bok2 = 0; // inicjacja zmiennej
+	pole = 0;
+	obwód = 0;
+	cout << "Podaj bok1 prostokata "
+	cout << "Podaj bok2 prostokata "
+	cin >> bok1
+	cin >> bok2
+	pole = bok1 * bok2;
+	obwód = 2 * bok1 + 2 * bok2;
+	cout << "Pole: " << pole;
+	cout << "Obwód: " << obwód;
+	return 0;
+}
 
-# Executables
-*.exe
-*.out
-*.app
