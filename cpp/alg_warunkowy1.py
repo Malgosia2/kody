@@ -26,7 +26,7 @@
 
 int main(int argc, char **argv)
 {
-	k
+	
 	return 0;
 }
 
