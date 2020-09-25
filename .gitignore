@@ -1,4 +1,8 @@
 
+# C extendion
+*.so
+*.exe
+*.o
 
 
 #include <iostream>
@@ -10,7 +14,7 @@ int main(int argc, char **argv)
 	int bok1; // deklaracja zmiennej
 	int bok2; // deklaracja zmiennej
 	int pole;
-	int obwód; 
+	int obwód;
 	bok1 = 0; // inicjacja zmiennej
 	bok2 = 0; // inicjacja zmiennej
 	pole = 0;
@@ -25,4 +29,3 @@ int main(int argc, char **argv)
 	cout << "Obwód: " << obwód;
 	return 0;
 }
-
