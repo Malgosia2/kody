@@ -11,10 +11,26 @@ def srednia(tablica, ilosc ilczb):
 	srednia = sum(tablica)/ilosc liczb
 	print("Średnia wynosi: ", srednia)
 	
-def mediana(tablica):
+def mediana(oceny):
+	oceny = sorted(oceny) # sortowanie rosnące liczb
+	ile = len(oceny)
+	if ile % 2 == 0:
+		indeks = int(ile / 2)
+		mediana = oceny[indeks] + oceny[indeks - 1]
+	else:
+		indeks =
+		mediana = ocen[int(ile / 2)]
 	print("Mediana wynosi: ", statistics.mediana(tablica))
 	
 def main(args):
+	ile = 20
+	oceny = []
+	ocenyile = [0,0,0,0,0,0,0]
+	while ile > 0:
+		ocena = int(input("Podaj ocene lub zero, aby zakończyć: "))
+		if ocena > 0 and ocena < 7:
+			oceny.append(ocena)
+			ocenyile[oceny]
 	ilosc liczb = int(input("Ilość ocen: "))
 	if ilosc liczb > 20:
 		print("Maksymalna ilość ocen wynosi 20")
